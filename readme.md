@@ -37,16 +37,10 @@ Aplikasi ini mencatat identitas siswa beserta titik koordinat lokasi (Latitude &
 ### 2. Setup Web Server
 1. Buat folder baru bernama `pkl_app` di dalam direktori `www` (Laragon) atau `htdocs` (XAMPP).
 2. Pindahkan *file* `api.php` dan `admin.php` ke dalam folder tersebut.
-3. Cek *IP Address* komputermu (misal: `192.168.1.16`).
+3. Cek *IP Address* komputermu (misal: `192.xxx.x.xx`).
 
 ### 3. Setup MIT App Inventor (Opsional jika ingin *build* ulang)
 1. Buka MIT App Inventor, lalu *import file* `.aia`.
 2. Buka bagian **Blocks** di **Screen Input_Data**.
-3. Cari blok URL `Web1` dan ubah alamat IP-nya sesuai dengan *IP Address* komputermu saat ini (contoh: `http://192.168.1.16/pkl_app/api.php`).
+3. Cari blok URL `Web1` dan ubah alamat IP-nya sesuai dengan *IP Address* komputermu saat ini (contoh: `http://192.xxx.x.xx/pkl_app/api.php`).
 4. Lakukan *Build* ulang ke `.apk`.
-
-## 📸 Screenshot
-
-*(Catatan: Silakan ganti teks ini dengan gambar screenshot aplikasimu. Caranya: drag and drop gambar ke editor GitHub)*
-* Tampilan Aplikasi (Login & Absen)
-* Tampilan Web Admin
